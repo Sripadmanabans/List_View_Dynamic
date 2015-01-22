@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_ordering">
+
+        <CheckBoxPreference
+            android:title="@string/settings_ordering_title"
+            android:defaultValue="true"
+            android:key="ORDERING_TYPE"
+            android:summaryOff="@string/settings_ordering_summary_off"
+            android:summaryOn="@string/settings_ordering_summary_on"/>
+
+        <ListPreference
+            android:title="@string/settings_view_list"
+            android:key="LIST_VIEW_LINES"
+            android:summary="@string/settings_view_list_summary"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_styling">
+
+        <CheckBoxPreference
+            android:title="@string/settings_style_bold"
+            android:defaultValue="false"
+            android:key="STYLE_BOLD"
+            android:summary="@string/settings_style_bold_summary" />
+
+        <CheckBoxPreference
+            android:title="@string/settings_style_italic"
+            android:defaultValue="false"
+            android:key="STYLE_ITALIC"
+            android:summary="@string/settings_style_italic_summary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

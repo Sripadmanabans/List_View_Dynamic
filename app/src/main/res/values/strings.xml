@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List View Dynamic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Drawer is Open</string>
+    <string name="drawer_closed">Drawer is Closed</string>
+    <string name="opening_text">You can add stuff to a List</string>
+    <string name="image_desc">Just a image</string>
+    <string name="work_display">Work in progress will have Display Working SOON!!!</string>
+    <string name="work_create">Work in progress will have Create Working SOON!!!</string>
+    <string name="work_delete">Have to find material to have this working :P</string>
+    <string name="name_label">Enter a Game Name : </string>
+    <string name="hint_game_name">Game Name</string>
+    <string name="developer_label">Enter the Games Developer Name : </string>
+    <string name="hint_developer">Developer Name</string>
+    <string name="button_create">Create a List Entry</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_ordering_title">Ordering of the List</string>
+    <string name="settings_ordering_summary_off">The list is in Descending Order</string>
+    <string name="settings_ordering_summary_on">The list is in Ascending Order</string>
+    <string name="about">About Application</string>
+    <string name="settings_ordering">List Display Ordering</string>
+    <string name="settings_styling">Styling for the Create Section</string>
+    <string name="settings_style_bold">Bold Style</string>
+    <string name="settings_style_bold_summary">Will make the text in the input are Bold</string>
+    <string name="settings_style_italic">Italic Style</string>
+    <string name="settings_style_italic_summary">Will make the text in the input are Italic</string>
+    <string name="settings_view_list">List View</string>
+    <string name="settings_view_list_summary">Click to change list view</string>
+    <string name="button_update">Update Game</string>
+    <string name="update_name_label">Game Name to be Updated : </string>
+    <string name="update_developer_label">Game Developer to be Updated : </string>
+    <string name="update_button">Update Value</string>
+    <string name="button_delete">Delete Entry</string>
+
+</resources>

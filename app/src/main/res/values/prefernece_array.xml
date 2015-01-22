@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_entries">
+        <item>Game Name Only</item>
+        <item>Game and Developer Names</item>
+    </string-array>
+
+    <string-array name="list_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
